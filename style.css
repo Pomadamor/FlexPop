@@ -1,3 +1,5 @@
+/* Page générale */
+
 body{
     margin: 0;
     font: 1.2em "Fira Sans", sans-serif;
@@ -28,6 +30,16 @@ nav div{
     margin-left: auto;
 }
 
+footer{
+    background-color: grey;
+    color: aliceblue;
+    height: 75px;
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Premiere partie  */
+
 .titre {
     background-color: grey;
     height: 50px;
@@ -50,6 +62,8 @@ nav div{
     margin-left: auto;
     height: 250px;
 }
+
+/* Deuxieme partie  */
 
 #zone2{
 
@@ -75,10 +89,11 @@ nav div{
 
 }
 
-footer{
-    background-color: grey;
-    color: aliceblue;
-    height: 75px;
-    text-align: center;
-    font-size: 2em;
+/* Format tablette  */
+
+
+@media screen and (max-width: 1280px) {
+    body{
+        background-color: pink;
+    }
 }
