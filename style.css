@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    font: 1.2em "Fira Sans", sans-serif;
+}
+
+header{
+    background-color: grey;
+    color: aliceblue;
+    font-size: 2em;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+nav{
+    text-align: center;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav div{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.titre {
+    background-color: grey;
+    height: 50px;
+}
+
+#zone1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 250px;
+}
+
+#zone1 section {
+    width: 27%;
+    background-color: lightgrey;
+    margin-right: auto;
+    margin-left: auto;
+    height: 250px;
+}
+
+#zone2{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#zone2 section {
+    width: 28%;
+    background-color: lightgrey;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    height: 300px;
+    border-radius: 300px;
+
+}
+
+footer{
+    background-color: grey;
+    color: aliceblue;
+    height: 75px;
+    text-align: center;
+    font-size: 2em;
+}
